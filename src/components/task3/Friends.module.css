@@ -1,0 +1,49 @@
+.section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .friendsList {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .friendsItem {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 100px;
+    gap: 10px;
+    cursor: pointer;
+    border: 1px solid gray;
+  }
+  
+  .friendStatus1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: red;
+    margin-left: 10px;
+  }
+  
+  .friendStatus2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: green;
+    margin-left: 10px;
+  }
+  
+  .friendsAvatar {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .friendsName {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
